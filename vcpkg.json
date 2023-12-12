@@ -1,0 +1,27 @@
+{
+  "name": "file-explorer",
+  "version-string": "0.1.0",
+  "dependencies": [
+    {
+      "name": "fmt"
+    },
+    {
+      "name": "opengl"
+    },
+    {
+      "name": "glfw3"
+    },
+    {
+      "name": "imgui",
+      "default-features": false,
+      "features": [
+        "glfw-binding",
+        "opengl3-binding"
+      ]
+    },
+    {
+      "name": "implot"
+    }
+  ],
+  "builtin-baseline": "293d43427b6460ffd0616fa656da66a0e771ffbd"
+}
